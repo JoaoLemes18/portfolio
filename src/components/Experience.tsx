@@ -5,44 +5,47 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      position: 'Desenvolvedor Full Stack Sênior',
-      company: 'TechCorp',
-      location: 'São Paulo, SP',
-      period: '2022 - Presente',
+      position: 'Assistente de TI',
+      company: 'Cliniprev Diagnósticos',
+      location: 'Cuiabá, MT',
+      period: 'Jun 2025 - Presente',
       current: true,
-      description: 'Desenvolvimento de aplicações web complexas utilizando React, Node.js e tecnologias cloud. Liderança técnica de equipe de 5 desenvolvedores.',
+      description: 'Atuo como Assistente de TI com experiência em atendimento presencial e remoto, gestão de chamados via GLPI, manutenção de hardware, configuração de redes, servidores, backup, firewall, administração de Active Directory e gerenciamento de bancos de dados.',
       achievements: [
-        'Migração de sistema legado para arquitetura moderna',
-        'Redução de 40% no tempo de carregamento das aplicações',
-        'Implementação de CI/CD e melhores práticas DevOps'
+        'Gestão de chamados via GLPI com alta eficiência',
+        'Configuração e manutenção de servidores e firewalls',
+        'Administração de Active Directory e bancos de dados',
+        'Trabalho com sistemas hospitalares como Clinux, PACS Carestream e Laborlis'
       ]
     },
     {
       id: 2,
-      position: 'Desenvolvedor Full Stack',
-      company: 'Startup Inovadora',
-      location: 'Rio de Janeiro, RJ',
-      period: '2021 - 2022',
+      position: 'Estágio em Suporte',
+      company: 'Tribunal de Justiça do Estado de Mato Grosso',
+      location: 'Cuiabá, MT',
+      period: 'Abr 2024 - Fev 2025',
       current: false,
-      description: 'Desenvolvimento de MVP e features para startup de fintech. Trabalho em ambiente ágil com deploy contínuo.',
+      description: 'Atuei na Divisão de Compras com foco em suporte técnico e TI, garantindo o funcionamento adequado dos recursos tecnológicos, como computadores, internet e links. Prestei suporte técnico ao uso do Excel e do Pacote Office.',
       achievements: [
-        'Desenvolvimento de API REST escalável',
-        'Criação de dashboard analytics em tempo real',
-        'Integração com APIs de pagamento'
+        'Suporte técnico em hardware, software e redes',
+        'Manutenção e melhorias em sistemas internos',
+        'Elaboração e manutenção de planilhas avançadas',
+        'Redação de ofícios e suporte às demandas do setor'
       ]
     },
     {
       id: 3,
-      position: 'Desenvolvedor Frontend',
-      company: 'Agência Digital',
-      location: 'Belo Horizonte, MG',
-      period: '2020 - 2021',
+      position: 'Estagiário em Desenvolvimento Mobile',
+      company: 'Compass UOL',
+      location: 'Remoto',
+      period: 'Mai 2023 - Nov 2023',
       current: false,
-      description: 'Criação de interfaces modernas e responsivas para diversos clientes. Foco em performance e experiência do usuário.',
+      description: 'Desenvolvimento mobile com React Native/TypeScript, criando aplicativos com interface intuitiva ao usuário. Participei da trilha de aprendizado React Native AWS Context com aprendizado excepcional.',
       achievements: [
-        'Desenvolvimento de 15+ websites responsivos',
-        'Otimização de SEO e Core Web Vitals',
-        'Implementação de animações e microinterações'
+        'Desenvolvimento de apps React Native com TypeScript',
+        'Integração com Firebase e Redux para estado global',
+        'Implementação de navegação e armazenamento local',
+        'Uso de tecnologias como Axios, Context API e Expo'
       ]
     }
   ];

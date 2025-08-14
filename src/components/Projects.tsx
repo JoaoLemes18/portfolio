@@ -9,28 +9,28 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Dashboard Analytics',
-      description: 'Plataforma completa de analytics com visualizações interativas e relatórios em tempo real.',
+      title: 'Sistema de Gestão de Profissionais - Mobile',
+      description: 'Aplicação Full Stack para gestão de profissionais, integrando cadastro, listagem, edição, inativação/reativação e filtros dinâmicos por especialidade com autenticação JWT.',
       image: project1,
-      technologies: ['React', 'TypeScript', 'Chart.js', 'Node.js'],
+      technologies: ['React Native', 'TypeScript', 'Node.js', 'Express', 'MySQL', 'Expo'],
       github: 'https://github.com',
       demo: 'https://demo.com'
     },
     {
       id: 2,
-      title: 'App Mobile Fitness',
-      description: 'Aplicativo móvel para acompanhamento de exercícios com interface moderna e intuitiva.',
+      title: 'Sistema Fasiclin - Gestão Hospitalar',
+      description: 'Aplicação Full Stack para otimizar a gestão de pacientes, agendamentos e prontuários eletrônicos na clínica-escola, integrando frontend e backend em um fluxo unificado.',
       image: project2,
-      technologies: ['React Native', 'Firebase', 'Redux', 'Expo'],
+      technologies: ['React', 'TypeScript', 'Redux Toolkit', 'Node.js', 'Express', 'Sequelize', 'MySQL'],
       github: 'https://github.com',
       demo: 'https://demo.com'
     },
     {
       id: 3,
-      title: 'E-commerce Platform',
-      description: 'Plataforma de e-commerce completa com carrinho, pagamentos e painel administrativo.',
+      title: 'Apps Mobile - Compass UOL',
+      description: 'Desenvolvimento de aplicativos mobile com React Native e TypeScript, focado em interfaces intuitivas e experiência do usuário excepcional.',
       image: project3,
-      technologies: ['Next.js', 'PostgreSQL', 'Stripe', 'Tailwind'],
+      technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux', 'Async Storage', 'Expo'],
       github: 'https://github.com',
       demo: 'https://demo.com'
     }
