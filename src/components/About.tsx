@@ -46,8 +46,8 @@ const About = () => {
               <div className="relative max-w-md mx-auto lg:mx-0">
                 <div className="aspect-square rounded-2xl overflow-hidden card-shadow">
                   <img 
-                    src={profilePhoto} 
-                    alt="João Silva" 
+                    src={`${profilePhoto}?v=${Date.now()}`} 
+                    alt="Desenvolvedor Full Stack" 
                     className="w-full h-full object-cover"
                   />
                 </div>
