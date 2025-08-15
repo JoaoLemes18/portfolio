@@ -32,6 +32,8 @@ const Index = () => {
     };
   }, []);
 
+  console.log('Index component loading...');
+
   return (
     <div className="min-h-screen">
       <Header />
