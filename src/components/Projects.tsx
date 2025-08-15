@@ -27,6 +27,15 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: 'Plataforma de Cursos - Full Stack',
+      description: 'Plataforma completa para gestão de cursos técnicos com interfaces para alunos, professores e coordenadores. Frontend em React.js + TypeScript e backend em C# (.NET Core) com autenticação JWT e sistema de permissões.',
+      image: project3,
+      technologies: ['React', 'TypeScript', 'C#', '.NET Core', 'SQL Server', 'Entity Framework', 'JWT', 'Vite'],
+      github: 'https://github.com',
+      demo: 'https://demo.com'
+    },
+    {
+      id: 4,
       title: 'Apps Mobile - Compass UOL',
       description: 'Desenvolvimento de aplicativos mobile com React Native e TypeScript, focado em interfaces intuitivas e experiência do usuário excepcional.',
       image: project3,
