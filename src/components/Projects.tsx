@@ -105,11 +105,17 @@ const Projects = () => {
                   </div>
 
                   {/* Project Links */}
-                  <div className="flex space-x-3">
+                  <div className="flex space-x-2">
                     <Button variant="outline" size="sm" className="flex-1">
                       <Github size={16} className="mr-2" />
                       GitHub
                     </Button>
+                    {project.id === 3 && (
+                      <Button variant="outline" size="sm" className="flex-1">
+                        <Github size={16} className="mr-2" />
+                        Backend
+                      </Button>
+                    )}
                     <Button size="sm" className="flex-1 hero-gradient text-white">
                       <ExternalLink size={16} className="mr-2" />
                       Ver projeto
