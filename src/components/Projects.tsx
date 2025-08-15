@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import project1 from '@/assets/project1.jpg';
 import project2 from '@/assets/project2.jpg';
 import project3 from '@/assets/project3.jpg';
+import project4 from '@/assets/project4.jpg';
 
 const Projects = () => {
   const projects = [
@@ -38,7 +39,7 @@ const Projects = () => {
       id: 4,
       title: 'Apps Mobile - Compass UOL',
       description: 'Desenvolvimento de aplicativos mobile com React Native e TypeScript, focado em interfaces intuitivas e experiência do usuário excepcional.',
-      image: project3,
+      image: project4,
       technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux', 'Async Storage', 'Expo'],
       github: 'https://github.com',
       demo: 'https://demo.com'
