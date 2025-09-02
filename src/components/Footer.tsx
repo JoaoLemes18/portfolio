@@ -6,7 +6,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:contato@joaosilva.dev', label: 'Email' },
+    { icon: Mail, href: 'mailto:joaolemes17@hotmail.com', label: 'Email' },
   ];
 
   const scrollToTop = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {/* Brand Section */}
             <div>
-              <h3 className="text-xl font-semibold mb-4">João Silva</h3>
+              <h3 className="text-xl font-semibold mb-4">João Lemes</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Desenvolvedor Full Stack apaixonado por criar experiências digitais 
                 incríveis e soluções inovadoras.
@@ -69,9 +69,9 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold mb-4">Contato</h4>
               <div className="space-y-2 text-muted-foreground">
-                <p>contato@joaosilva.dev</p>
-                <p>São Paulo, Brasil</p>
-                <p>+55 11 99999-9999</p>
+                <p>joaolemes17@hotmail.com</p>
+                <p>Cuiabá, Brasil</p>
+                <p>+55 65 99979-8208</p>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Footer = () => {
           <div className="pt-8 border-t border-border">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="flex items-center space-x-2 text-muted-foreground">
-                <span>© {currentYear} João Silva. Feito com</span>
+                <span>© {currentYear} João Lemes. Feito com</span>
                 <Heart size={16} className="text-red-500" />
                 <span>e muito código</span>
               </div>
