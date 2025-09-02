@@ -1,20 +1,20 @@
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:joaolemes17@hotmail.com', label: 'Email' },
+    { icon: Github, href: "https://github.com", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:joaolemes17@hotmail.com", label: "Email" },
   ];
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
-    <footer className="bg-background border-t border-border">
+    <footer className="bg-background border-t border-border py-20 bg-accent/20">
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-6xl mx-auto">
           {/* Main Footer Content */}
@@ -23,8 +23,8 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4">João Lemes</h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                Desenvolvedor Full Stack apaixonado por criar experiências digitais 
-                incríveis e soluções inovadoras.
+                Desenvolvedor Full Stack apaixonado por criar experiências
+                digitais incríveis e soluções inovadoras.
               </p>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
@@ -47,11 +47,11 @@ const Footer = () => {
               <h4 className="font-semibold mb-4">Navegação</h4>
               <ul className="space-y-2">
                 {[
-                  { label: 'Início', href: '#inicio' },
-                  { label: 'Sobre mim', href: '#sobre' },
-                  { label: 'Projetos', href: '#projetos' },
-                  { label: 'Experiência', href: '#experiencia' },
-                  { label: 'Contato', href: '#contato' },
+                  { label: "Início", href: "#inicio" },
+                  { label: "Sobre mim", href: "#sobre" },
+                  { label: "Projetos", href: "#projetos" },
+                  { label: "Experiência", href: "#experiencia" },
+                  { label: "Contato", href: "#contato" },
                 ].map((link, index) => (
                   <li key={index}>
                     <a
@@ -80,11 +80,9 @@ const Footer = () => {
           <div className="pt-8 border-t border-border">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="flex items-center space-x-2 text-muted-foreground">
-                <span>© {currentYear} João Lemes. Feito com</span>
-                <Heart size={16} className="text-red-500" />
-                <span>e muito código</span>
+                <span>© {currentYear} João Lemes</span>
               </div>
-              
+
               <button
                 onClick={scrollToTop}
                 className="text-muted-foreground hover:text-primary transition-colors"
