@@ -11,7 +11,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Sistema de Gestão de Profissionais - Mobile",
+      title: "Sistema Fasiclin - Gestão de Profissionais - Mobile",
       description:
         "Aplicação Full Stack para gestão de profissionais, integrando cadastro, listagem, edição, inativação/reativação e filtros dinâmicos por especialidade com autenticação JWT.",
       image: project1,
@@ -28,7 +28,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Sistema Fasiclin - Gestão Hospitalar",
+      title: "Sistema Fasiclin - Gestão Hospitalar - Web",
       description:
         "Aplicação Full Stack para otimizar a gestão de pacientes, agendamentos e prontuários eletrônicos na clínica-escola, integrando frontend e backend em um fluxo unificado.",
       image: project2,
