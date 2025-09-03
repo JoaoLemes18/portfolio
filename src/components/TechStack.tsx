@@ -49,6 +49,9 @@ const CATEGORIES: {
       { name: "Expo", icon: SiExpo },
       { name: "Expo Router" },
       { name: "React Navigation", note: "Rotas" },
+      { name: "React Query", note: "@tanstack/react-query" },
+      { name: "PDF Reports", note: "RN/Expo" },
+      { name: "Toaster/Toast", note: "Feedback de UI" },
       { name: "AsyncStorage", note: "Sessão/Persistência" },
       { name: "expo-print / expo-sharing", note: "PDF e compartilhamento" },
     ],
@@ -94,12 +97,9 @@ const CATEGORIES: {
     title: "Dev & Ops",
     icon: Cpu,
     items: [
-      { name: "React Query", note: "@tanstack/react-query" },
       { name: "REST APIs", note: "Padrões e versionamento" },
       { name: "ESLint + Prettier", icon: SiEslint },
       { name: "Git / GitHub", icon: FaGitAlt },
-      { name: "PDF Reports", note: "RN/Expo" },
-      { name: "Toaster/Toast", note: "Feedback de UI" },
     ],
   },
 ];
