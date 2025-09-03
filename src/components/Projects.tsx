@@ -65,9 +65,9 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "E-commerce - Compass UOL",
+      title: "E-commerce de plantas",
       description:
-        "Desenvolvimento de aplicativos mobile com React Native e TypeScript, focado em interfaces intuitivas e experiência do usuário excepcional.",
+        "E-comemrce desesnvolvido na Compass UOL, seguindos os padrões solicitados.",
       image: project4,
       technologies: [
         "React Native",
