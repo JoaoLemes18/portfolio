@@ -1,10 +1,11 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import project1 from "@/assets/project1.jpg";
+import project1 from "@/assets/project1.png";
 import project2 from "@/assets/project2.jpg";
 import project3 from "@/assets/project3.jpg";
-import project4 from "@/assets/project4.jpg";
+import project4 from "@/assets/project4.jpeg";
+import project5 from "@/assets/project5.jpg";
 
 const Projects = () => {
   const projects = [
@@ -86,7 +87,7 @@ const Projects = () => {
       title: "EduIa",
       description:
         "Aplicativo educacional desenvolvido para professores e educadores, que integra Inteligência Artificial para auxiliar na criação de conteúdos pedagógicos.",
-      image: project4,
+      image: project5,
       technologies: [
         "React Native",
         "TypeScript",
