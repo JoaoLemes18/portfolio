@@ -48,7 +48,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="text-xl font-semibold text-primary">Portfolio</div>
+          <div className="text-xl font-semibold text-primary">João Lemes</div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
