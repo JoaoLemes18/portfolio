@@ -4,22 +4,35 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { Cpu, Globe, Server, Smartphone, Database, Cog } from "lucide-react";
+import {
+  Cpu,
+  Globe,
+  Server,
+  Smartphone,
+  Database,
+  Cog,
+  Lock,
+  BarChart2,
+} from "lucide-react";
 
 // Ícones das stacks
-import { FaReact, FaNodeJs, FaGitAlt, FaDatabase } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import {
   SiTypescript,
   SiTailwindcss,
   SiDotnet,
   SiMysql,
   SiSequelize,
-  SiRedux,
+  SiPostgresql, // <-- adicionado
   SiExpo,
   SiSwagger,
   SiEslint,
+  SiPrisma,
+  SiVite,
+  SiOpenai,
+  SiAxios,
+  SiJsonwebtokens,
 } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io";
 
 type TechItem = { name: string; note?: string; icon?: React.ElementType };
 
@@ -34,11 +47,13 @@ const CATEGORIES: {
     items: [
       { name: "React", icon: FaReact },
       { name: "TypeScript", icon: SiTypescript },
+      { name: "Vite", icon: SiVite },
       { name: "SASS/CSS" },
       { name: "Tailwind CSS", icon: SiTailwindcss },
       { name: "shadcn/ui" },
       { name: "React Router DOM" },
       { name: "lucide-react", note: "Ícones" },
+      { name: "Recharts", icon: BarChart2, note: "Gráficos" }, // corrigido
     ],
   },
   {
@@ -63,11 +78,12 @@ const CATEGORIES: {
       { name: "Node.js", icon: FaNodeJs },
       { name: "Express" },
       { name: "TypeScript", icon: SiTypescript },
-      { name: "JWT", note: "Auth" },
-      { name: "bcrypt", note: "Hash de senha" },
-      { name: "axios", note: "HTTP client" },
-      { name: "MVC", note: "Arquitetura" },
+      { name: "Prisma ORM", icon: SiPrisma },
       { name: "Sequelize", icon: SiSequelize },
+      { name: "JWT", note: "Auth", icon: SiJsonwebtokens },
+      { name: "bcrypt", note: "Hash de senha", icon: Lock }, // corrigido
+      { name: "axios", note: "HTTP client", icon: SiAxios },
+      { name: "MVC", note: "Arquitetura" },
     ],
   },
   {
@@ -87,10 +103,11 @@ const CATEGORIES: {
     icon: Database,
     items: [
       { name: "MySQL", icon: SiMysql },
+      { name: "PostgreSQL", icon: SiPostgresql }, // <-- novo
       { name: "mysql2/promise", note: "Driver Node" },
       { name: "EF Core + MySQL", note: "Provider .NET" },
       { name: "Modelagem relacional", note: "PK/FK, JOINs" },
-      { name: "Migrations", note: ".NET / SQL" },
+      { name: "Migrations", note: "Prisma / .NET" },
     ],
   },
   {
@@ -100,6 +117,7 @@ const CATEGORIES: {
       { name: "REST APIs", note: "Padrões e versionamento" },
       { name: "ESLint + Prettier", icon: SiEslint },
       { name: "Git / GitHub", icon: FaGitAlt },
+      { name: "OpenAI API", icon: SiOpenai, note: "Integração de IA" },
     ],
   },
 ];

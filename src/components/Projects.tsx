@@ -6,6 +6,7 @@ import project2 from "@/assets/project2.jpg";
 import project3 from "@/assets/project3.jpg";
 import project4 from "@/assets/project4.jpeg";
 import project5 from "@/assets/project5.jpg";
+import project6 from "@/assets/project6.png";
 
 const Projects = () => {
   const projects = [
@@ -67,7 +68,7 @@ const Projects = () => {
       id: 4,
       title: "E-commerce de plantas",
       description:
-        "E-comemrce desesnvolvido na Compass UOL, seguindos os padrões solicitados.",
+        "E-commerce desenvolvido na Compass UOL, seguindo os padrões solicitados.",
       image: project4,
       technologies: [
         "React Native",
@@ -99,6 +100,27 @@ const Projects = () => {
         "Expo",
       ],
       github: "https://github.com/JoaoLemes18/EduIA",
+      demo: undefined,
+    },
+    {
+      id: 6,
+      title:
+        "Alavancagem Patrimonial - Dashboard de Investimentos Imobiliários",
+      description:
+        "Aplicação Full Stack para análise de investimentos imobiliários. O sistema calcula lucro líquido estimado, total investido e exibe gráficos interativos de performance por imóvel e composição de custos, integrando backend com Prisma/Express e frontend em React + Tailwind.",
+      image: project6, // adicione a imagem do dashboard na pasta assets e ajuste o caminho
+      technologies: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "TailwindCSS",
+        "Recharts",
+        "Node.js",
+        "Express",
+        "Prisma",
+        "MySQL",
+      ],
+      github: "https://github.com/JoaoLemes18/patrimonial-imoveis", // coloque o repositório certo
       demo: undefined,
     },
   ];
