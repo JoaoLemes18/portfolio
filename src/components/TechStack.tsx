@@ -12,7 +12,6 @@ import {
   Database,
   Cog,
   Lock,
-  BarChart2,
 } from "lucide-react";
 
 // Ícones das stacks
@@ -23,7 +22,7 @@ import {
   SiDotnet,
   SiMysql,
   SiSequelize,
-  SiPostgresql, // <-- adicionado
+  SiPostgresql,
   SiExpo,
   SiSwagger,
   SiEslint,
@@ -33,6 +32,7 @@ import {
   SiAxios,
   SiJsonwebtokens,
   SiSqlite,
+  SiDocker,
 } from "react-icons/si";
 
 type TechItem = { name: string; note?: string; icon?: React.ElementType };
@@ -53,8 +53,6 @@ const CATEGORIES: {
       { name: "Tailwind CSS", icon: SiTailwindcss },
       { name: "shadcn/ui" },
       { name: "React Router DOM" },
-      { name: "lucide-react", note: "Ícones" },
-      { name: "Recharts", icon: BarChart2, note: "Gráficos" }, // corrigido
     ],
   },
   {
@@ -66,9 +64,8 @@ const CATEGORIES: {
       { name: "Expo Router", icon: SiExpo },
       { name: "React Navigation", note: "Rotas" },
       { name: "React Query", note: "@tanstack/react-query" },
-      { name: "PDF Reports", note: "RN/Expo" },
       { name: "AsyncStorage", note: "Sessão/Persistência" },
-      { name: "expo-print / expo-sharing", note: "PDF e compartilhamento" },
+      { name: "Axios", icon: SiAxios, note: "HTTP" },
     ],
   },
   {
@@ -81,8 +78,6 @@ const CATEGORIES: {
       { name: "Prisma ORM", icon: SiPrisma },
       { name: "Sequelize", icon: SiSequelize },
       { name: "JWT", note: "Auth", icon: SiJsonwebtokens },
-      { name: "bcrypt", note: "Hash de senha", icon: Lock }, // corrigido
-      { name: "axios", note: "HTTP client", icon: SiAxios },
       { name: "MVC", note: "Arquitetura" },
     ],
   },
@@ -92,9 +87,7 @@ const CATEGORIES: {
     items: [
       { name: "ASP.NET Core", icon: SiDotnet },
       { name: "Entity Framework Core", note: "ORM" },
-      { name: "JWT Bearer", note: "Autenticação" },
       { name: "Swashbuckle / Swagger", note: "OpenAPI", icon: SiSwagger },
-      { name: "System.Text.Json", note: "DTO/Serialização" },
       { name: "HttpClient", note: "Integrações" },
     ],
   },
@@ -103,14 +96,10 @@ const CATEGORIES: {
     icon: Database,
     items: [
       { name: "MySQL", icon: SiMysql },
-      { name: "PostgreSQL", icon: SiPostgresql }, 
-      { name: "SQLite", icon: SiSqlite }, 
-      { name: "Prisma ORM", icon: SiPrisma }, 
-      { name: "Sequelize", icon: SiSequelize }, 
-      { name: "mysql2/promise", note: "Driver Node" },
+      { name: "SQLite", icon: SiSqlite },
+      { name: "Prisma ORM", icon: SiPrisma },
+      { name: "Sequelize", icon: SiSequelize },
       { name: "EF Core + MySQL", note: "Provider .NET" },
-      { name: "Modelagem relacional", note: "PK/FK, JOINs" },
-      { name: "Migrations", note: "Prisma / .NET" },
     ],
   },
   {
@@ -121,6 +110,7 @@ const CATEGORIES: {
       { name: "ESLint + Prettier", icon: SiEslint },
       { name: "Git / GitHub", icon: FaGitAlt },
       { name: "OpenAI API", icon: SiOpenai, note: "Integração de IA" },
+      { name: "Docker", icon: SiDocker },
     ],
   },
 ];

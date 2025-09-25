@@ -60,26 +60,28 @@ const About = () => {
             {/* Content */}
             <div className="fade-in">
               <h3 className="text-2xl font-semibold mb-6">
-                Desenvolvedor apaixonado por tecnologia
+                Desenvolvedor focado em criar soluções digitais de impacto
               </h3>
 
               <div className="space-y-4 text-muted-foreground mb-8">
                 <p>
-                  Sou um desenvolvedor full stack com experiência criando
-                  aplicações web modernas e eficientes. Minha paixão está em
-                  transformar ideias complexas em soluções digitais elegantes.
+                  Sou um desenvolvedor full stack com experiência em aplicações
+                  web e mobile, buscando sempre unir eficiência técnica com
+                  interfaces bem pensadas.
                 </p>
 
                 <p>
-                  Especializo-me em React, React Native, C#, TypeScript, Node.js
-                  e tecnologias cloud. Sempre busco aprender novas tecnologias e
-                  aplicar as melhores práticas de desenvolvimento.
+                  Trabalho principalmente com React, React Native TypeScript e
+                  Node.js, além de explorar tecnologias cloud. Estou sempre em
+                  evolução, aprendendo novas ferramentas e aplicando boas
+                  práticas para entregar projetos de alto nível.
                 </p>
 
                 <p>
-                  Quando não estou programando, gosto de estudar design,
-                  contribuir para projetos open source e compartilhar
-                  conhecimento com a comunidade de desenvolvedores.
+                  Além da programação, me interesso por música, esportes e
+                  atividades ao ar livre. Acredito que cultivar diferentes
+                  interesses traz novas perspectivas e contribui para soluções
+                  mais criativas no dia a dia de desenvolvimento.
                 </p>
               </div>
 
