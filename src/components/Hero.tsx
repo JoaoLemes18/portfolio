@@ -28,10 +28,9 @@ const Hero = () => {
                 João Lemes
               </span>
             </h1>
-
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Desenvolvedor Full Stack apaixonado por criar experiências
-              digitais incríveis e soluções inovadoras
+              Desenvolvedor Full Stack focado em criar soluções digitais
+              modernas.
             </p>
 
             {/* CTA Buttons */}

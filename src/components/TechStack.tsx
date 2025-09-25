@@ -22,7 +22,7 @@ import {
   SiDotnet,
   SiMysql,
   SiSequelize,
-  SiPostgresql,
+  SiAmazon,
   SiExpo,
   SiSwagger,
   SiEslint,
@@ -111,6 +111,7 @@ const CATEGORIES: {
       { name: "Git / GitHub", icon: FaGitAlt },
       { name: "OpenAI API", icon: SiOpenai, note: "Integração de IA" },
       { name: "Docker", icon: SiDocker },
+      { name: "AWS", icon: SiAmazon, note: "Cloud & Infra" }, // 🔹 adicionado
     ],
   },
 ];
