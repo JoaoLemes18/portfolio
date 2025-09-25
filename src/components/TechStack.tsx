@@ -32,6 +32,7 @@ import {
   SiOpenai,
   SiAxios,
   SiJsonwebtokens,
+  SiSqlite,
 } from "react-icons/si";
 
 type TechItem = { name: string; note?: string; icon?: React.ElementType };
@@ -62,11 +63,10 @@ const CATEGORIES: {
     items: [
       { name: "React Native", icon: FaReact },
       { name: "Expo", icon: SiExpo },
-      { name: "Expo Router" },
+      { name: "Expo Router", icon: SiExpo },
       { name: "React Navigation", note: "Rotas" },
       { name: "React Query", note: "@tanstack/react-query" },
       { name: "PDF Reports", note: "RN/Expo" },
-      { name: "Toaster/Toast", note: "Feedback de UI" },
       { name: "AsyncStorage", note: "Sessão/Persistência" },
       { name: "expo-print / expo-sharing", note: "PDF e compartilhamento" },
     ],
@@ -103,7 +103,10 @@ const CATEGORIES: {
     icon: Database,
     items: [
       { name: "MySQL", icon: SiMysql },
-      { name: "PostgreSQL", icon: SiPostgresql }, // <-- novo
+      { name: "PostgreSQL", icon: SiPostgresql }, 
+      { name: "SQLite", icon: SiSqlite }, 
+      { name: "Prisma ORM", icon: SiPrisma }, 
+      { name: "Sequelize", icon: SiSequelize }, 
       { name: "mysql2/promise", note: "Driver Node" },
       { name: "EF Core + MySQL", note: "Provider .NET" },
       { name: "Modelagem relacional", note: "PK/FK, JOINs" },

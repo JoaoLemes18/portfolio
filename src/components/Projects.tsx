@@ -7,6 +7,7 @@ import project3 from "@/assets/project3.jpg";
 import project4 from "@/assets/project4.jpeg";
 import project5 from "@/assets/project5.jpg";
 import project6 from "@/assets/project6.png";
+import project7 from "@/assets/project7.jpg";
 
 const Projects = () => {
   const projects = [
@@ -121,6 +122,24 @@ const Projects = () => {
         "MySQL",
       ],
       github: "https://github.com/JoaoLemes18/patrimonial-imoveis", // coloque o repositório certo
+      demo: undefined,
+    },
+    {
+      id: 7,
+      title: "Gerenciador de Dispositivos - MVP",
+      description:
+        "Aplicativo mobile para gestão de estoque de smartphones. Permite cadastrar, editar, remover, filtrar e exportar relatórios em PDF. Desenvolvido como MVP para validar a ideia, já em uso real no dia a dia.",
+      image: project7, // adicione a imagem na pasta assets e importe no topo
+      technologies: [
+        "React Native",
+        "TypeScript",
+        "Expo",
+        "SQLite",
+        "Expo Camera",
+        "Context API",
+        "PDF Export",
+      ],
+      github: "https://github.com/JoaoLemes18/GestaoEstoque-Celulares",
       demo: undefined,
     },
   ];
